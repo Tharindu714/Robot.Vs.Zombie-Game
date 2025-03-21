@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ROBO war Z | Hotel</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="icon.ico" />
+
+
+</head>
+
+<body onload="createboxes();" class="game3" id="game" onload="hotelonload();" onkeyup="KeyCheck(event);">
+
+    <div id="canvas" class="bghotel">
+        <img id="robo" class="robo3" src="Run (1).png" />
+        <div class="score" id="score">0</div>
+        <p class="scoreboard">Points</p>
+    </div>
+
+    <div class="end" id="end">
+        <div>Final Score</div>
+        <div id="endscore">0</div>
+        <button onclick="reload();" class="btn6">PLAY AGAIN</button>
+    </div>
+
+
+    <button class="btn5 game3" id="btn5" onclick="backToChooseFromLocation();">GO back</button>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

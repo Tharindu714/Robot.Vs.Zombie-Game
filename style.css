@@ -1,0 +1,506 @@
+.robo {
+    height: 350px;
+    margin-top: 265px;
+    margin-left: 0px;
+    position: absolute;
+}
+
+.bgtown {
+    width: 100%;
+    height: 100vh;
+    background-image: url("town.png");
+    position: absolute;
+    background-size: contain;
+    background-repeat: repeat-x;
+    overflow-x: hidden;
+}
+
+.bgdessert {
+    width: 100%;
+    height: 100vh;
+    background-image: url("dessert.png");
+    position: absolute;
+    background-size: cover;
+    background-repeat: repeat-x;
+    overflow-x: hidden;
+    margin-top: 20px;
+    margin: 0px;
+}
+
+.robo1 {
+    height: 350px;
+    margin-top: 260px;
+    margin-left: 0px;
+    position: absolute;
+}
+
+.bggrave {
+    width: 100%;
+    height: 100vh;
+    background-image: url("graveyard.png");
+    position: absolute;
+    background-size: cover;
+    background-repeat: repeat-x;
+    overflow-x: hidden;
+    margin: 0px;
+    margin-top: 6px;
+}
+
+.robo2 {
+    height: 350px;
+    margin-top: 265px;
+    margin-left: 0px;
+    position: absolute;
+}
+
+.bghotel {
+    width: 100%;
+    height: 100vh;
+    background-image: url("hotel.png");
+    position: absolute;
+    background-size: contain;
+    background-repeat: repeat-x;
+    overflow-x: hidden;
+}
+
+.robo3 {
+    height: 350px;
+    margin-top: 275px;
+    margin-left: 0px;
+    position: absolute;
+}
+
+.bgprison {
+    width: 100%;
+    height: 100vh;
+    background-image: url("prison.png");
+    position: absolute;
+    background-size: contain;
+    background-repeat: repeat-x;
+    overflow-x: hidden;
+}
+
+.robo4 {
+    height: 350px;
+    margin-top: 285px;
+    margin-left: 0px;
+    position: absolute;
+}
+
+.menu {
+    background-image: url("game bg.jpg");
+    background-size: 1250px;
+    background-position-y: 0px;
+    background-position-x: 70px;
+    position: absolute;
+}
+
+.btn1 {
+    width: 200px;
+    height: 75px;
+    color: rgb(0, 0, 0);
+    background-color: red;
+    font-size: 30px;
+    font-family: "BatBoo";
+    border: solid;
+    border-radius: 50px;
+    position: absolute;
+    margin-top: 520px;
+    margin-left: 650px;
+}
+
+.btn1:hover {
+    background-color: blueviolet;
+    cursor: pointer;
+    transition-duration: 500ms;
+    font-family: "BatBoo";
+}
+
+@font-face {
+    font-family: "BatBoo";
+    src: url("BatBoo.woff");
+}
+
+.img1 {
+    width: 300px;
+    height: 160px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 90px;
+}
+
+.img2 {
+    width: 300px;
+    height: 160px;
+    position: absolute;
+    margin-left: 460px;
+    margin-top: 95px;
+}
+
+.img3 {
+    width: 300px;
+    height: 160px;
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 100px;
+}
+
+.img4 {
+    width: 300px;
+    height: 160px;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 350px;
+}
+
+.img5 {
+    width: 300px;
+    height: 160px;
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 350px;
+}
+
+.p1 {
+    margin-left: 150px;
+    position: absolute;
+    margin-top: 280px;
+    font-family: "BatBoo";
+    color: cornsilk;
+}
+
+.p2 {
+    margin-left: 580px;
+    position: absolute;
+    margin-top: 280px;
+    font-family: "BatBoo";
+    color: cornsilk;
+}
+
+.p3 {
+    margin-left: 1010px;
+    position: absolute;
+    margin-top: 280px;
+    font-family: "BatBoo";
+    color: cornsilk;
+}
+
+.p4 {
+    margin-left: 400px;
+    position: absolute;
+    margin-top: 540px;
+    font-family: "BatBoo";
+    color: cornsilk;
+}
+
+.p5 {
+    margin-left: 990px;
+    position: absolute;
+    margin-top: 540px;
+    font-family: "BatBoo";
+    color: cornsilk;
+}
+
+.choose {
+    font-size: 20px;
+    position: absolute;
+    font-family: "BatBoo";
+    font-weight: bold;
+    margin-left: 450px;
+    color: cornsilk;
+}
+
+.p1:hover {
+    background-color: rgba(248, 248, 255, 0.584);
+    color: red;
+    font-family: "BatBoo";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent;
+    cursor: pointer;
+    transition-duration: 600ms;
+    border-radius: 20px;
+}
+
+.p2:hover {
+    background-color: rgba(248, 248, 255, 0.584);
+    color: red;
+    font-family: "BatBoo";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent;
+    cursor: pointer;
+    transition-duration: 600ms;
+    border-radius: 20px;
+}
+
+.p3:hover {
+    background-color: rgba(248, 248, 255, 0.584);
+    color: red;
+    font-family: "BatBoo";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent;
+    cursor: pointer;
+    transition-duration: 600ms;
+    border-radius: 20px;
+}
+
+.p4:hover {
+    background-color: rgba(248, 248, 255, 0.584);
+    color: red;
+    font-family: "BatBoo";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent;
+    cursor: pointer;
+    transition-duration: 600ms;
+    border-radius: 20px;
+}
+
+.p5:hover {
+    background-color: rgba(248, 248, 255, 0.584);
+    color: red;
+    font-family: "BatBoo";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent;
+    cursor: pointer;
+    transition-duration: 600ms;
+    border-radius: 20px;
+}
+
+.img1 {
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+
+.img2 {
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+
+.img3 {
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+
+.img4 {
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+
+.img5 {
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+
+.menu2 {
+    background-image: url("choosemenu.png");
+    width: 100%;
+    background-position-y: -320px;
+    position: absolute;
+}
+
+.btn2 {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 120px;
+    width: 140px;
+    height: 70px;
+    font-family: "BatBoo";
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.btn2:hover {
+    background-color: antiquewhite;
+    color: red;
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+
+.btn3 {
+    position: absolute;
+    width: 140px;
+    height: 70px;
+    font-family: "BatBoo";
+    font-size: 22px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 50px;
+    margin-top: 120px;
+    margin-left: 325px;
+}
+
+.btn3:hover {
+    background-color: antiquewhite;
+    color: red;
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+
+.btn4 {
+    position: absolute;
+    width: 140px;
+    height: 70px;
+    font-family: "BatBoo";
+    font-size: 22px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 50px;
+    margin-left: 970px;
+    margin-top: 40px;
+}
+
+.btn4:hover {
+    background-color: antiquewhite;
+    color: red;
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+
+.btn5 {
+    position: absolute;
+    width: 140px;
+    height: 70px;
+    font-family: "BatBoo";
+    font-size: 22px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 50px;
+    margin-top: 40px;
+    margin-left: 1150px;
+}
+
+.btn5:hover {
+    background-color: antiquewhite;
+    color: red;
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+
+.body {
+    margin: 0px;
+}
+
+.score {
+    position: absolute;
+    font-size: 50px;
+    margin-left: 270px;
+    margin-top: 20px;
+    font-family: "BatBoo";
+    font-weight: bold;
+    color: red;
+}
+.scoreboard{
+    position: absolute;
+    font-size: 50px;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: "BatBoo";
+    font-weight: bold;
+}
+
+.box{
+    position: absolute;
+    width: 200px;
+    height: 270px;
+    background-color: transparent;
+    background-image: url("object.gif");
+    margin-top: 400px;
+    background-size: 200px;
+}
+
+.end{
+    background-size: 1250px;
+    background-position-y: 0px;
+    background-position-x: 70px;
+    width: 100%;
+    height: 100vh;
+    
+
+    position: absolute;
+    background-image: url("lost.png");
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(12, 11, 12);
+    font-family: "BatBoo";
+    visibility: hidden;
+
+}
+
+.btn6{
+    width: 300px;
+    height: 74px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "BatBoo";
+    background-color: rgb(85, 85, 241);
+    color: rgb(83, 4, 4);
+    border: solid;
+    border-radius: 20px;
+    position: absolute;
+    margin-top: 40px;
+    
+
+}
+
+.btn6:hover{
+    background-color: white;
+    color: red;
+    cursor: pointer;
+    transition-duration: 500ms;
+
+}
+.wonbg{
+    width: 100%;
+    position: absolute;
+    height: 100vh;
+    background-image: url("won.png");
+    background-size: 1350px;
+    background-position-x: -0px;
+}
+
+.btn7{
+    margin-left: 500px;
+    
+}
+.hints{
+    font-size: 25px;
+    position: inline;
+    margin-left: 500px;
+    font-family: "BatBoo";
+    color: chartreuse;
+    margin-top: 10px;
+}
+
+.hints1{
+    font-size: 25px;
+    position: inline;
+    margin-left: 500px;
+    margin-top: -100px;
+    font-family: "BatBoo";
+    color: chartreuse;
+    
+}
+.hints2{
+    font-size: 25px;
+    position: inline;
+    margin-left: 500px;
+    font-family: "BatBoo";
+    color: rgb(255, 0, 0);
+}
+
